@@ -251,6 +251,16 @@ rsa:Point rdf:type owl:Class ;
 
 
 
+###  http://rdf.biosemantics.org/ontologies/rsa#ProteinReferenceSequence
+
+rsa:ProteinReferenceSequence rdf:type owl:Class ;
+                             
+                             rdfs:label "protein reference sequence" ;
+                             
+                             rdfs:subClassOf rsa:ReferenceSequence .
+
+
+
 ###  http://rdf.biosemantics.org/ontologies/rsa#ReferenceSequence
 
 rsa:ReferenceSequence rdf:type owl:Class ;
